@@ -1,0 +1,6002 @@
+[
+  {
+    "char": "天",
+    "reading": "THIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "查",
+    "reading": "TRA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "的",
+    "reading": "ĐÍCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "不",
+    "reading": "BẤT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "子",
+    "reading": "TÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "之",
+    "reading": "CHI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "人",
+    "reading": "NHÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "我",
+    "reading": "NGÃ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "有",
+    "reading": "HỮU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "是",
+    "reading": "THỊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "生",
+    "reading": "SINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "一",
+    "reading": "NHẤT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "大",
+    "reading": "ĐẠI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "家",
+    "reading": "GIA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "明",
+    "reading": "MINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "心",
+    "reading": "TÂM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "日",
+    "reading": "NHẬT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "行",
+    "reading": "HÀNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "山",
+    "reading": "SƠN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "花",
+    "reading": "HOA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "月",
+    "reading": "NGUYỆT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "上",
+    "reading": "THƯỢNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "中",
+    "reading": "TRUNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "道",
+    "reading": "ĐẠO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "在",
+    "reading": "TẠI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "神",
+    "reading": "THẦN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "地",
+    "reading": "ĐỊA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "金",
+    "reading": "KIM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "好",
+    "reading": "HÁO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "成",
+    "reading": "THÀNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "水",
+    "reading": "THUỶ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "你",
+    "reading": "NỂ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "得",
+    "reading": "ĐẮC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "無",
+    "reading": "VÔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "文",
+    "reading": "VĂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "者",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "相",
+    "reading": "TƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "其",
+    "reading": "KÌ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "以",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "王",
+    "reading": "VƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "安",
+    "reading": "AN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "如",
+    "reading": "NHƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "清",
+    "reading": "THANH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "事",
+    "reading": "SỰ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "和",
+    "reading": "HOÀ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "青",
+    "reading": "THANH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "也",
+    "reading": "DÃ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "自",
+    "reading": "TỰ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "春",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "光",
+    "reading": "QUANG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "年",
+    "reading": "NÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "何",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "起",
+    "reading": "KHỞI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "去",
+    "reading": "KHỨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "為",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "小",
+    "reading": "TIỂU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "正",
+    "reading": "CHÍNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "出",
+    "reading": "XUẤT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "星",
+    "reading": "TINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "風",
+    "reading": "PHONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "南",
+    "reading": "NAM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "知",
+    "reading": "TRI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "然",
+    "reading": "NHIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "世",
+    "reading": "THẾ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "重",
+    "reading": "TRỌNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "雨",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "情",
+    "reading": "TÌNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "白",
+    "reading": "BẠCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "可",
+    "reading": "KHẢ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "空",
+    "reading": "KHÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "真",
+    "reading": "CHÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "下",
+    "reading": "HẠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "了",
+    "reading": "LIỄU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "方",
+    "reading": "PHƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "德",
+    "reading": "ĐỨC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "思",
+    "reading": "TƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "要",
+    "reading": "YẾU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "流",
+    "reading": "LƯU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "前",
+    "reading": "TIỀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "玉",
+    "reading": "NGỌC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "新",
+    "reading": "TÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "本",
+    "reading": "BẢN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "里",
+    "reading": "LỊA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "海",
+    "reading": "HẢI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "所",
+    "reading": "SỠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "長",
+    "reading": "TRƯỜNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "而",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "君",
+    "reading": "QUÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "香",
+    "reading": "HƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "女",
+    "reading": "NỮA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "美",
+    "reading": "MỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "高",
+    "reading": "CAO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "名",
+    "reading": "DANH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "意",
+    "reading": "Ý",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "英",
+    "reading": "ANH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "都",
+    "reading": "ĐÔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "平",
+    "reading": "BÌNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "看",
+    "reading": "KHAN · KHÁN · KHẢN · KHĂN · KHEN · KHỚN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "此",
+    "reading": "THỬ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "從",
+    "reading": "TÒNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "元",
+    "reading": "NGUYÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "夜",
+    "reading": "DẠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "時",
+    "reading": "THÌ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "千",
+    "reading": "THIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "木",
+    "reading": "MỘC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "未",
+    "reading": "MÙI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "就",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "身",
+    "reading": "THÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "到",
+    "reading": "ĐÁO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "今",
+    "reading": "KIM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "秋",
+    "reading": "THU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "落",
+    "reading": "LẠC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "多",
+    "reading": "ĐA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "分",
+    "reading": "PHÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "福",
+    "reading": "PHÚC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "武",
+    "reading": "VŨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "越",
+    "reading": "VIỆT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "于",
+    "reading": "VU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "法",
+    "reading": "PHÁP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "龍",
+    "reading": "LONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "來",
+    "reading": "LAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "先",
+    "reading": "TIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "公",
+    "reading": "CÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "能",
+    "reading": "NĂNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "朝",
+    "reading": "TRIỀU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "言",
+    "reading": "NGÔN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "西",
+    "reading": "TÂY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "老",
+    "reading": "LÃO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "若",
+    "reading": "NHƯỢC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "手",
+    "reading": "THỦ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "作",
+    "reading": "TÁC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "面",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "國",
+    "reading": "QUỐC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "代",
+    "reading": "ĐẠI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "陽",
+    "reading": "DƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "車",
+    "reading": "XA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "壽",
+    "reading": "THỌ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "太",
+    "reading": "THÁI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "主",
+    "reading": "CHÚA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "三",
+    "reading": "TAM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "色",
+    "reading": "SẮC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "着",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "等",
+    "reading": "ĐẲNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "古",
+    "reading": "CỔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "周",
+    "reading": "CHU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "江",
+    "reading": "GIANG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "合",
+    "reading": "HỢP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "口",
+    "reading": "KHẨU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "路",
+    "reading": "LỘ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "阮",
+    "reading": "NGUYỄN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "又",
+    "reading": "LẠI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "那",
+    "reading": "NA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "他",
+    "reading": "THA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "至",
+    "reading": "CHÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "定",
+    "reading": "ĐỊNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "回",
+    "reading": "HỒI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "望",
+    "reading": "VỌNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "土",
+    "reading": "THỔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "来",
+    "reading": "LAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "深",
+    "reading": "THÂM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "李",
+    "reading": "LÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "取",
+    "reading": "THỦ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "草",
+    "reading": "THẢO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "原",
+    "reading": "NGUYÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "常",
+    "reading": "THƯỜNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "故",
+    "reading": "CỐ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "於",
+    "reading": "Ư",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "死",
+    "reading": "TỢ · TỬ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "同",
+    "reading": "ĐỒNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "書",
+    "reading": "THƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "字",
+    "reading": "TỰ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "最",
+    "reading": "TỐI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "信",
+    "reading": "TÍN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "義",
+    "reading": "NGHĨA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "教",
+    "reading": "GIÁO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "理",
+    "reading": "LÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "通",
+    "reading": "THÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "火",
+    "reading": "HOẢ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "雲",
+    "reading": "VÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "林",
+    "reading": "LÂM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "食",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "坐",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "物",
+    "reading": "VẬT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "頭",
+    "reading": "ĐẦU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "力",
+    "reading": "LỰC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "喜",
+    "reading": "HỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "氏",
+    "reading": "THỊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "为",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "萬",
+    "reading": "VẠN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "爱",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "使",
+    "reading": "SỨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "志",
+    "reading": "CHÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "会",
+    "reading": "HỘI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "想",
+    "reading": "TƯỞNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "度",
+    "reading": "ĐỘ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "化",
+    "reading": "HOÁ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "已",
+    "reading": "DĨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "念",
+    "reading": "NIỆM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "城",
+    "reading": "THÀNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "更",
+    "reading": "CANH · CÀNH · CÁNH · NGẠNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "无",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "云",
+    "reading": "VÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "莫",
+    "reading": "MẠC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "及",
+    "reading": "CẬP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "處",
+    "reading": "XỬ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "音",
+    "reading": "ÂM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "百",
+    "reading": "BÁ · BÁCH · TRĂM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "用",
+    "reading": "DỤNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "全",
+    "reading": "TOÀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "波",
+    "reading": "BA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "影",
+    "reading": "ẢNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "士",
+    "reading": "SĨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "後",
+    "reading": "HẬU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "期",
+    "reading": "KÌ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "石",
+    "reading": "THẠCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "少",
+    "reading": "THIỂU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "黃",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "易",
+    "reading": "DỊCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "河",
+    "reading": "HÀ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "黄",
+    "reading": "HOÀNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "解",
+    "reading": "GIẢI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "與",
+    "reading": "DỮ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "見",
+    "reading": "KIẾN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "学",
+    "reading": "HỌC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "立",
+    "reading": "LẬP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "令",
+    "reading": "LỆNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "利",
+    "reading": "LỢI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "外",
+    "reading": "NGOẠI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "陳",
+    "reading": "TRẦN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "五",
+    "reading": "NGŨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "直",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "微",
+    "reading": "VI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "走",
+    "reading": "TẨU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "很",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "夫",
+    "reading": "PHU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "再",
+    "reading": "TÁI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "雪",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "華",
+    "reading": "HOA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "黎",
+    "reading": "LÊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "这",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "放",
+    "reading": "PHÓNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "著",
+    "reading": "TRỨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "入",
+    "reading": "NHẬP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "十",
+    "reading": "THẬP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "客",
+    "reading": "KHÁCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "初",
+    "reading": "SƠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "靈",
+    "reading": "LINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "善",
+    "reading": "THIỆN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "感",
+    "reading": "CẢM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "命",
+    "reading": "MỆNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "幸",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "打",
+    "reading": "ĐẢ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "樂",
+    "reading": "LẠC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "四",
+    "reading": "TỨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "永",
+    "reading": "VẮNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "堂",
+    "reading": "ĐƯỜNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "便",
+    "reading": "TIỆN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "修",
+    "reading": "TU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "民",
+    "reading": "DÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "衣",
+    "reading": "Y",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "国",
+    "reading": "QUỐC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "開",
+    "reading": "KHAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "建",
+    "reading": "KIẾN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "非",
+    "reading": "PHI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "愛",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "芳",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "夏",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "吉",
+    "reading": "CÁT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "梅",
+    "reading": "MAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "干",
+    "reading": "CAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "田",
+    "reading": "ĐIỀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "容",
+    "reading": "DUNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "比",
+    "reading": "TỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "門",
+    "reading": "MÔN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "精",
+    "reading": "TINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "因",
+    "reading": "NHÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "宇",
+    "reading": "VŨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "九",
+    "reading": "CỬU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "亦",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "將",
+    "reading": "TƯỚNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "共",
+    "reading": "CỘNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "歸",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "北",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "任",
+    "reading": "NHẬM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "才",
+    "reading": "TÀI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "曾",
+    "reading": "TẰNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "足",
+    "reading": "TÚC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "奇",
+    "reading": "KỲ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "性",
+    "reading": "TÍNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "紫",
+    "reading": "TÍA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "友",
+    "reading": "HỮU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "發",
+    "reading": "PHÁT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "次",
+    "reading": "THỨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "居",
+    "reading": "CƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "向",
+    "reading": "HƯỚNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "交",
+    "reading": "GIAO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "笑",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "目",
+    "reading": "MỤC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "照",
+    "reading": "CHIẾU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "良",
+    "reading": "LƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "野",
+    "reading": "DÃ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "孝",
+    "reading": "HIẾU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "間",
+    "reading": "GIAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "盛",
+    "reading": "THỊNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "受",
+    "reading": "THỤ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "保",
+    "reading": "BẢO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "晚",
+    "reading": "VÃN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "且",
+    "reading": "THẢ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "祖",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "只",
+    "reading": "CHỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "八",
+    "reading": "BÁT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "對",
+    "reading": "ĐỖI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "住",
+    "reading": "TRÚ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "歌",
+    "reading": "CA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "始",
+    "reading": "THUỶ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "東",
+    "reading": "ĐANG · ĐÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "长",
+    "reading": "TRƯỜNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "酒",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "往",
+    "reading": "VÃNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "首",
+    "reading": "THỦ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "氣",
+    "reading": "KHÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "逢",
+    "reading": "PHÙNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "破",
+    "reading": "PHÁ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "當",
+    "reading": "ĐƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "經",
+    "reading": "KINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "待",
+    "reading": "ĐÃI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "寒",
+    "reading": "HÀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "二",
+    "reading": "NHÌ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "學",
+    "reading": "HỌC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "被",
+    "reading": "BỊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "過",
+    "reading": "QUÁ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "发",
+    "reading": "PHÁT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "盡",
+    "reading": "TẬN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "會",
+    "reading": "HỘI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "宗",
+    "reading": "TÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "特",
+    "reading": "ĐẶC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "佳",
+    "reading": "GIAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "傳",
+    "reading": "TRUYỀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "丁",
+    "reading": "ĐINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "帝",
+    "reading": "ĐẤY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "景",
+    "reading": "CẢNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "登",
+    "reading": "ĐĂNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "切",
+    "reading": "THIẾT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "送",
+    "reading": "TỐNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "眼",
+    "reading": "NHẢN · NHÃN · NHẶN · NHẪN · NHỞN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "朱",
+    "reading": "CHO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "師",
+    "reading": "SƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "欲",
+    "reading": "DỤC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "關",
+    "reading": "QUAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "早",
+    "reading": "TẢO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "留",
+    "reading": "LƯU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "紅",
+    "reading": "HỒNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "官",
+    "reading": "QUAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "菜",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "斯",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "難",
+    "reading": "NAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "己",
+    "reading": "KỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "功",
+    "reading": "CÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "难",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "羅",
+    "reading": "LA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "飛",
+    "reading": "PHI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "必",
+    "reading": "TẤT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "素",
+    "reading": "TỐ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "遠",
+    "reading": "VIỄN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "台",
+    "reading": "THAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "各",
+    "reading": "CÁC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "由",
+    "reading": "DO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "余",
+    "reading": "DƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "聲",
+    "reading": "THANH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "时",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "求",
+    "reading": "CẦU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "虎",
+    "reading": "HỔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "把",
+    "reading": "BÃ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "京",
+    "reading": "KINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "司",
+    "reading": "TI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "张",
+    "reading": "TRƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "接",
+    "reading": "TIẾP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "恩",
+    "reading": "ÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "过",
+    "reading": "QUÁ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "失",
+    "reading": "THẤT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "仁",
+    "reading": "NHÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "幾",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "興",
+    "reading": "HƯNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "角",
+    "reading": "GÓC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "指",
+    "reading": "CHỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "服",
+    "reading": "PHỤC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "智",
+    "reading": "TRÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "仙",
+    "reading": "TIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "茶",
+    "reading": "TRÀ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "葉",
+    "reading": "DIỆP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "睡",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "乐",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "风",
+    "reading": "PHONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "阿",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "加",
+    "reading": "GIA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "果",
+    "reading": "QUẢ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "七",
+    "reading": "THẤT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "黑",
+    "reading": "HẮC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "曲",
+    "reading": "KHÚC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "将",
+    "reading": "TƯỚNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "没",
+    "reading": "MỐT · MỘT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "商",
+    "reading": "THƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "关",
+    "reading": "QUAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "寶",
+    "reading": "BẢO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "守",
+    "reading": "THÚ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "舞",
+    "reading": "VŨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "赤",
+    "reading": "XÍCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "持",
+    "reading": "TRÌ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "苦",
+    "reading": "KHỔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "息",
+    "reading": "TỨC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "提",
+    "reading": "ĐỀ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "冷",
+    "reading": "LẠNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "進",
+    "reading": "TIẾN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "米",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "秀",
+    "reading": "TÚ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "垂",
+    "reading": "THÙY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "胡",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "沙",
+    "reading": "NHỂU · SA · SÀ · XA · XOÀ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "佛",
+    "reading": "PHẬT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "玄",
+    "reading": "HUYỀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "夢",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "寺",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "男",
+    "reading": "NAM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "开",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "致",
+    "reading": "NHÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "晴",
+    "reading": "TẠNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "翠",
+    "reading": "THUÝ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "慧",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "系",
+    "reading": "HỆ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "還",
+    "reading": "HOÀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "工",
+    "reading": "CÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "后",
+    "reading": "HẬU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "承",
+    "reading": "THỪA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "煙",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "还",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "聖",
+    "reading": "THÁNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "散",
+    "reading": "TẢN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "片",
+    "reading": "PHIẾN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "气",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "几",
+    "reading": "KỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "依",
+    "reading": "Y",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "母",
+    "reading": "MẪU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "示",
+    "reading": "KÌ · THỊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "羽",
+    "reading": "VÕ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "每",
+    "reading": "HỎI · MỎI · MỌI · MỖI · MỦ · MỦI · MŨI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "第",
+    "reading": "ĐẬY · ĐỆ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "辰",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "快",
+    "reading": "KHOÁI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "雄",
+    "reading": "HÙNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "語",
+    "reading": "NGỮ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "復",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "皇",
+    "reading": "HOÀNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "位",
+    "reading": "VỊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "富",
+    "reading": "PHÚ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "近",
+    "reading": "CẬN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "說",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "似",
+    "reading": "TỰ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "折",
+    "reading": "CHIẾT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "表",
+    "reading": "BIỂU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "馬",
+    "reading": "MÃ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "夕",
+    "reading": "TỊCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "差",
+    "reading": "SAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "博",
+    "reading": "BÁC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "別",
+    "reading": "BIẾT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "宿",
+    "reading": "TÚC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "川",
+    "reading": "XUYÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "則",
+    "reading": "TẮC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "头",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "对",
+    "reading": "ĐỐI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "收",
+    "reading": "THU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "根",
+    "reading": "CĂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "室",
+    "reading": "THẤT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "做",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "懷",
+    "reading": "HOÀI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "久",
+    "reading": "CỬU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "当",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "即",
+    "reading": "TỨC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "應",
+    "reading": "ỨNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "乃",
+    "reading": "NẢI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "乾",
+    "reading": "KIỀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "步",
+    "reading": "BỘ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "止",
+    "reading": "CHỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "嘉",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "竹",
+    "reading": "TRÚC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "泉",
+    "reading": "TUYỀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "漢",
+    "reading": "HÁN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "勝",
+    "reading": "THẮNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "半",
+    "reading": "BÁN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "松",
+    "reading": "TÙNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "儿",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "露",
+    "reading": "LỘ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "舍",
+    "reading": "XÁ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "弟",
+    "reading": "ĐỆ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "宜",
+    "reading": "NGHI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "游",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "部",
+    "reading": "BỘ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "灵",
+    "reading": "LINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "聽",
+    "reading": "THÍNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "房",
+    "reading": "PHÒNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "業",
+    "reading": "NGHIỆP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "藏",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "父",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "与",
+    "reading": "DỮ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "聞",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "品",
+    "reading": "PHẨM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "章",
+    "reading": "CHƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "珠",
+    "reading": "CHÂU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "尊",
+    "reading": "TÔN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "浪",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "卒",
+    "reading": "TỐT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "張",
+    "reading": "TRƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "數",
+    "reading": "SỐ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "皆",
+    "reading": "GIAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "体",
+    "reading": "THỂ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "消",
+    "reading": "TIÊU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "但",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "六",
+    "reading": "LỤC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "康",
+    "reading": "KHANG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "泰",
+    "reading": "THÁI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "牛",
+    "reading": "NGƯU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "刀",
+    "reading": "ĐAO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "零",
+    "reading": "LÊNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "離",
+    "reading": "LI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "忘",
+    "reading": "VONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "奉",
+    "reading": "PHỤNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "俊",
+    "reading": "TUẤN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "病",
+    "reading": "BỆNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "见",
+    "reading": "KIẾN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "兒",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "降",
+    "reading": "GIÁNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "燕",
+    "reading": "ÉN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "賢",
+    "reading": "HIỀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "枝",
+    "reading": "CHI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "兵",
+    "reading": "BINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "昔",
+    "reading": "TÍCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "封",
+    "reading": "PHONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "既",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "終",
+    "reading": "CHUNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "忙",
+    "reading": "MANG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "华",
+    "reading": "HOA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "遇",
+    "reading": "NGỘ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "庭",
+    "reading": "ĐÌNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "緣",
+    "reading": "DUYÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "節",
+    "reading": "TIẾT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "休",
+    "reading": "HƯU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "貴",
+    "reading": "QUÝ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "谢",
+    "reading": "TẠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "包",
+    "reading": "BAO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "靜",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "鬼",
+    "reading": "QUỶ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "基",
+    "reading": "CƠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "经",
+    "reading": "KINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "愁",
+    "reading": "SẦU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "个",
+    "reading": "CÁ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "具",
+    "reading": "CỤ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "迷",
+    "reading": "MÊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "亡",
+    "reading": "VONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "亮",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "源",
+    "reading": "NGUỒN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "书",
+    "reading": "THƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "反",
+    "reading": "PHẢN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "吃",
+    "reading": "KHẬT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "制",
+    "reading": "CHẾ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "格",
+    "reading": "CÁCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "校",
+    "reading": "CHÒ · GIÂU · HIỆU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "克",
+    "reading": "KHẮC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "威",
+    "reading": "UY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "孤",
+    "reading": "CÔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "滿",
+    "reading": "MÃN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "甲",
+    "reading": "GIÁP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "叫",
+    "reading": "KHIẾU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "冰",
+    "reading": "BĂNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "動",
+    "reading": "ĐỘNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "桃",
+    "reading": "ĐÀO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "舟",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "急",
+    "reading": "CẤP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "喝",
+    "reading": "HÁT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "健",
+    "reading": "KIỆN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "徐",
+    "reading": "CHỜ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "低",
+    "reading": "ĐÂY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "冬",
+    "reading": "ĐÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "些",
+    "reading": "TA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "丹",
+    "reading": "ĐAM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "實",
+    "reading": "THỰC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "斗",
+    "reading": "ĐẤU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "端",
+    "reading": "ĐOAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "鄉",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "龙",
+    "reading": "LONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "科",
+    "reading": "KHOA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "映",
+    "reading": "ÁNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "親",
+    "reading": "THÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "拉",
+    "reading": "LẤP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "群",
+    "reading": "QUẦN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "歲",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "背",
+    "reading": "BỐI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "底",
+    "reading": "ĐỂ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "碧",
+    "reading": "BÍCH · BIẾC · VÁCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "院",
+    "reading": "VIỆN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "梁",
+    "reading": "LƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "唐",
+    "reading": "ĐƯỜNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "場",
+    "reading": "TRƯỜNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "尚",
+    "reading": "CHUỘNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "皮",
+    "reading": "BÌ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "豪",
+    "reading": "HÀO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "禾",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "辛",
+    "reading": "TÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "万",
+    "reading": "VẠN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "曰",
+    "reading": "VIẾT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "連",
+    "reading": "LIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "覺",
+    "reading": "GIÁC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "舉",
+    "reading": "CỬ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "陰",
+    "reading": "ÂM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "州",
+    "reading": "CHÂU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "樹",
+    "reading": "THỤ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "集",
+    "reading": "TẬP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "識",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "禮",
+    "reading": "LỄ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "雅",
+    "reading": "NHÃ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "支",
+    "reading": "CHI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "詩",
+    "reading": "THI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "峰",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "乘",
+    "reading": "THẶNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "末",
+    "reading": "MẠT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "記",
+    "reading": "KÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "马",
+    "reading": "MÃ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "郎",
+    "reading": "LANG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "延",
+    "reading": "DANG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "鳥",
+    "reading": "ĐIỂU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "邊",
+    "reading": "BIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "彩",
+    "reading": "THÁI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "血",
+    "reading": "HUYẾT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "程",
+    "reading": "TRÌNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "慶",
+    "reading": "KHÁNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "瑞",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "問",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "井",
+    "reading": "TỈNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "昌",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "陈",
+    "reading": "TRẦN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "牌",
+    "reading": "BÀI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "式",
+    "reading": "THỨC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "觀",
+    "reading": "QUAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "暗",
+    "reading": "ÁM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "族",
+    "reading": "TỘC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "施",
+    "reading": "THI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "旅",
+    "reading": "LỮ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "布",
+    "reading": "BỐ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "魔",
+    "reading": "MA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "沉",
+    "reading": "TRÒM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "倒",
+    "reading": "ĐẢO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "进",
+    "reading": "TIẾN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "願",
+    "reading": "NGUYỆN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "超",
+    "reading": "SIÊU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "運",
+    "reading": "VẬN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "告",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "浮",
+    "reading": "PHÙ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "船",
+    "reading": "THUYỀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "惟",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "累",
+    "reading": "LUỴ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "達",
+    "reading": "ĐẠT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "谷",
+    "reading": "CỐC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "薄",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "师",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "巴",
+    "reading": "BA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "治",
+    "reading": "TRỊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "离",
+    "reading": "LE",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "機",
+    "reading": "CƠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "机",
+    "reading": "CƠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "市",
+    "reading": "THỊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "魂",
+    "reading": "HỒN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "毛",
+    "reading": "MAO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "班",
+    "reading": "BAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "说",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "造",
+    "reading": "TẠO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "村",
+    "reading": "THÔN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "樓",
+    "reading": "LẦU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "管",
+    "reading": "QUẢN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "軍",
+    "reading": "QUÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "整",
+    "reading": "CHỈNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "左",
+    "reading": "TẢ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "疑",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "冠",
+    "reading": "QUÁN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "洗",
+    "reading": "TẨY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "点",
+    "reading": "ĐIỂM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "像",
+    "reading": "TƯỢNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "圓",
+    "reading": "VIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "午",
+    "reading": "NGỌ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "假",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "霜",
+    "reading": "SƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "社",
+    "reading": "XÃ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "形",
+    "reading": "HÌNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "数",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "獨",
+    "reading": "ĐỘC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "存",
+    "reading": "TỒN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "活",
+    "reading": "HOẠT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "榮",
+    "reading": "VINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "虛",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "寸",
+    "reading": "THỐN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "體",
+    "reading": "THỂ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "范",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "象",
+    "reading": "TƯỢNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "或",
+    "reading": "HOẶC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "珍",
+    "reading": "TRÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "推",
+    "reading": "SUY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "店",
+    "reading": "ĐIẾM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "红",
+    "reading": "HỒNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "雷",
+    "reading": "LÔI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "穿",
+    "reading": "XUYÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "敬",
+    "reading": "KÍNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "遊",
+    "reading": "DU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "乎",
+    "reading": "HỒ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "調",
+    "reading": "ĐIỀU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "么",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "耳",
+    "reading": "NHĨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "界",
+    "reading": "GIỚI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "杜",
+    "reading": "ĐỖ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "亲",
+    "reading": "THÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "勤",
+    "reading": "CẦN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "眠",
+    "reading": "MIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "麻",
+    "reading": "MA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "轉",
+    "reading": "CHUYỂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "算",
+    "reading": "TOÁN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "溪",
+    "reading": "KHE",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "段",
+    "reading": "ĐOẠN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "静",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "諸",
+    "reading": "CHƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "从",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "床",
+    "reading": "SÀNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "完",
+    "reading": "HOÀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "甘",
+    "reading": "CAM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "哥",
+    "reading": "CA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "侯",
+    "reading": "HẬU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "沈",
+    "reading": "ĐẮM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "除",
+    "reading": "TRỪ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "幽",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "量",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "許",
+    "reading": "HỨA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "餘",
+    "reading": "DƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "斷",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "列",
+    "reading": "LIỆT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "般",
+    "reading": "BÀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "骨",
+    "reading": "CỐT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "臨",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "銀",
+    "reading": "NGÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "政",
+    "reading": "CHÍNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "申",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "勿",
+    "reading": "VẬT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "寧",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "欣",
+    "reading": "HÂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "间",
+    "reading": "GIAN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "刻",
+    "reading": "KHẮC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "羊",
+    "reading": "DƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "吹",
+    "reading": "XUY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "迎",
+    "reading": "NGHÊNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "醉",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "彼",
+    "reading": "BỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "希",
+    "reading": "HƠI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "予",
+    "reading": "NHỪ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "肉",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "祥",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "忍",
+    "reading": "NHẪN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "姐",
+    "reading": "THƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "臣",
+    "reading": "THẦN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "寄",
+    "reading": "GỬI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "候",
+    "reading": "HẦU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "沒",
+    "reading": "MỐT · MỘT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "童",
+    "reading": "ĐỒNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "筆",
+    "reading": "BÚT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "号",
+    "reading": "HIỆU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "车",
+    "reading": "XA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "窗",
+    "reading": "SONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "考",
+    "reading": "KHẢO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "季",
+    "reading": "QUÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "柳",
+    "reading": "LIỄU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "卷",
+    "reading": "QUYỂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "吾",
+    "reading": "NGO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "料",
+    "reading": "LIỆU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "宝",
+    "reading": "BẢO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "號",
+    "reading": "HIỆU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "竟",
+    "reading": "CÁNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "畫",
+    "reading": "HOẠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "異",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "結",
+    "reading": "KẾT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "齊",
+    "reading": "TÀY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "蓮",
+    "reading": "SEN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "隨",
+    "reading": "TUỲ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "惠",
+    "reading": "HUỆ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "圖",
+    "reading": "ĐỒ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "牙",
+    "reading": "NHA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "御",
+    "reading": "NGỰ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "引",
+    "reading": "DẪN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "順",
+    "reading": "THUẬN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "恨",
+    "reading": "HẬN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "并",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "塵",
+    "reading": "TRẦN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "们",
+    "reading": "MÓN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "钱",
+    "reading": "TIỀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "尋",
+    "reading": "TẦM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "悠",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "油",
+    "reading": "DẦU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "右",
+    "reading": "HỮU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "悲",
+    "reading": "BI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "蘭",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "私",
+    "reading": "TƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "須",
+    "reading": "TUA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "座",
+    "reading": "TOÀ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "复",
+    "reading": "HẠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "妙",
+    "reading": "DIỆU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "誰",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "尔",
+    "reading": "NỂ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "強",
+    "reading": "CÀNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "塞",
+    "reading": "TẮC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "傷",
+    "reading": "THƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "驚",
+    "reading": "KINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "楚",
+    "reading": "SỞ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "灰",
+    "reading": "HÔI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "秦",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "汝",
+    "reading": "NHỚ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "這",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "局",
+    "reading": "CỤC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "阳",
+    "reading": "DƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "罗",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "屋",
+    "reading": "ỐC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "論",
+    "reading": "LUẬN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "害",
+    "reading": "HẠI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "逐",
+    "reading": "TRỤC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "暖",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "翻",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "忠",
+    "reading": "TRUNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "極",
+    "reading": "CỰC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "夂",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "惡",
+    "reading": "ÁC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "爲",
+    "reading": "VAY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "声",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "器",
+    "reading": "KHÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "森",
+    "reading": "CHÙM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "遍",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "昏",
+    "reading": "HÔN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "招",
+    "reading": "CHIÊU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "付",
+    "reading": "PHÓ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "報",
+    "reading": "BÁO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "奈",
+    "reading": "NẠI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "跟",
+    "reading": "NGẤN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "宮",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "伏",
+    "reading": "PHỤC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "东",
+    "reading": "ĐANG · ĐÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "戴",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "鼓",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "姓",
+    "reading": "TÍNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "暮",
+    "reading": "MỘ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "场",
+    "reading": "TRƯỜNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "澤",
+    "reading": "RẠCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "偏",
+    "reading": "THIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "典",
+    "reading": "ĐIỂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "伯",
+    "reading": "BÁ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "昭",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "尾",
+    "reading": "VĨ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "亭",
+    "reading": "ĐÌNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "什",
+    "reading": "THẬP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "計",
+    "reading": "KỂ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "杯",
+    "reading": "BÔI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "園",
+    "reading": "VIÊN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "舒",
+    "reading": "THƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "磨",
+    "reading": "MÀI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "请",
+    "reading": "THỈNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "戈",
+    "reading": "QUA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "廣",
+    "reading": "QUẢNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "省",
+    "reading": "TỈNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "孫",
+    "reading": "TÔN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "处",
+    "reading": "XỬ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "雞",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "滅",
+    "reading": "DIỆT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "聚",
+    "reading": "TỤ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "渡",
+    "reading": "ĐÒ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "殺",
+    "reading": "SÁT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "欠",
+    "reading": "KHIẾM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "语",
+    "reading": "NGỮ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "孟",
+    "reading": "MẠNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "演",
+    "reading": "DIỄN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "臺",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "髮",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "麗",
+    "reading": "LỆ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "窮",
+    "reading": "CÙNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "變",
+    "reading": "BIẾN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "味",
+    "reading": "VỊ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "动",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "找",
+    "reading": "QUƠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "細",
+    "reading": "TỚI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "柔",
+    "reading": "NHU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "岸",
+    "reading": "NGÀN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "弄",
+    "reading": "LỘNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "敢",
+    "reading": "CÁM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "宏",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "暴",
+    "reading": "BẠO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "舊",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "輕",
+    "reading": "KHINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "停",
+    "reading": "ĐÌNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "桑",
+    "reading": "TANG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "池",
+    "reading": "TRÌ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "府",
+    "reading": "PHỦ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "凡",
+    "reading": "PHÀM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "爾",
+    "reading": "NHÃI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "借",
+    "reading": "TÁ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "业",
+    "reading": "NGHIỆP",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "蘇",
+    "reading": "TO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "带",
+    "reading": "ĐAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "伊",
+    "reading": "Y",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "射",
+    "reading": "XẠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "慈",
+    "reading": "TỪ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "謝",
+    "reading": "TẠ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "烏",
+    "reading": "Ô",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "蒙",
+    "reading": "MÔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "境",
+    "reading": "CẢNH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "徒",
+    "reading": "ĐỒ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "咸",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "炎",
+    "reading": "VIÊM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "番",
+    "reading": "PHAN · PHEN · PHIÊN · PHIỆN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "玲",
+    "reading": "LIẾNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "戰",
+    "reading": "CHIẾN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "租",
+    "reading": "TO · TÒ · TÔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "占",
+    "reading": "CHIÊM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "霞",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "蒼",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "飲",
+    "reading": "ẨM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "寂",
+    "reading": "TỊCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "兩",
+    "reading": "LƯỠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "浩",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "抱",
+    "reading": "BÃO",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "琴",
+    "reading": "CẦM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "征",
+    "reading": "CHINH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "種",
+    "reading": "CHÕNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "条",
+    "reading": "ĐIỀU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "固",
+    "reading": "CỐ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "吳",
+    "reading": "NGÔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "絕",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "改",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "兴",
+    "reading": "HƯNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "球",
+    "reading": "CẦU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "電",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "晨",
+    "reading": "THẦN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "益",
+    "reading": "ÍCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "湖",
+    "reading": "HỒ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "内",
+    "reading": "NỘI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "狂",
+    "reading": "CUỒNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "顧",
+    "reading": "CỐ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "短",
+    "reading": "ĐOẢN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "刺",
+    "reading": "THÍCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "却",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "矣",
+    "reading": "HỈ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "采",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "振",
+    "reading": "CHẤN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "豐",
+    "reading": "PHONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "卡",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "昨",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "普",
+    "reading": "PHỔ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "洪",
+    "reading": "HÒNG · HỒNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "配",
+    "reading": "PHỐI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "艮",
+    "reading": "CẤN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "符",
+    "reading": "BÙA",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "助",
+    "reading": "TRỢ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "实",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "並",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "桂",
+    "reading": "QUẾ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "套",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "勢",
+    "reading": "THẾ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "錄",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "觉",
+    "reading": "GIÁC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "别",
+    "reading": "BIẾT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "索",
+    "reading": "SÁCH",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "甚",
+    "reading": "THẬM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "帶",
+    "reading": "ĐAI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "雙",
+    "reading": "SONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "鹿",
+    "reading": "LỘC",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "痛",
+    "reading": "THỐNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "退",
+    "reading": "THOÁI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "兮",
+    "reading": "HỀ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "豆",
+    "reading": "ĐẬU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "楊",
+    "reading": "DƯƠNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "婦",
+    "reading": "PHỤ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "句",
+    "reading": "CÂU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "總",
+    "reading": "TỔNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "免",
+    "reading": "MIỄN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "隆",
+    "reading": "LONG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "餐",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "束",
+    "reading": "THÚT",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "勇",
+    "reading": "DŨNG",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "顯",
+    "reading": "HIỂN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "敏",
+    "reading": "MẪN",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "投",
+    "reading": "ĐẦU",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "追",
+    "reading": "TRUY",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "蓋",
+    "reading": "CÁI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "魚",
+    "reading": "NGƯ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "聊",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "唯",
+    "reading": "DÕI",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "橫",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "含",
+    "reading": "HÀM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "淡",
+    "reading": "ĐẠM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "個",
+    "reading": "CÁ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "點",
+    "reading": "ĐIỂM",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "置",
+    "reading": "TRÍ",
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "char": "題",
+    "reading": "",
+    "meaning": "",
+    "examples": []
+  }
+]

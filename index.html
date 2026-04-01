@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chữ Thông Dụng</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <header>
+    <h1>Chữ Thông Dụng</h1>
+    <div class="header-actions">
+      <button class="btn-ghost" id="btn-settings">Cài đặt</button>
+      <button class="btn-ghost" id="btn-help">?</button>
+    </div>
+  </header>
+
+  <!-- Settings panel (hidden by default) -->
+  <div class="settings-panel hidden" id="settings-panel">
+    <label>
+      Thẻ mới mỗi ngày
+      <input type="number" id="daily-limit-input" min="0" max="50" value="10" />
+    </label>
+    <div style="display:flex;gap:8px">
+      <button class="btn-ghost" id="btn-export" style="flex:1">Xuất tiến độ</button>
+      <button class="btn-ghost" id="btn-import" style="flex:1">Nhập tiến độ</button>
+    </div>
+  </div>
+
+  <!-- Shortcut help (hidden by default) -->
+  <div class="shortcut-help hidden" id="shortcut-help">
+    <kbd>Space</kbd> lật thẻ &nbsp;·&nbsp;
+    <kbd>1</kbd> Lại &nbsp;
+    <kbd>2</kbd> Khó &nbsp;
+    <kbd>3</kbd> Ổn &nbsp;
+    <kbd>4</kbd> Dễ &nbsp;·&nbsp;
+    <kbd>?</kbd> phím tắt
+  </div>
+
+  <!-- Progress -->
+  <div class="progress-section">
+    <div class="progress-meta">
+      <span id="progress-text">0 / 1000 thẻ đã học</span>
+      <span id="today-text">Hôm nay: 0 thẻ</span>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div class="chips">
+      <span class="chip" id="chip-new">● 0 mới</span>
+      <span class="chip" id="chip-due">● 0 ôn tập</span>
+    </div>
+  </div>
+
+  <!-- Study area -->
+  <div id="study-area">
+    <div id="card-area">
+
+      <!-- Front -->
+      <div class="card" id="card-front">
+        <span class="card-number" id="card-number">#1</span>
+        <div class="character" id="card-char"></div>
+        <p class="flip-hint" id="flip-hint">Nhấn Space hoặc bấm để lật thẻ</p>
+      </div>
+
+      <!-- Back (hidden until flip) -->
+      <div class="card hidden" id="card-back">
+        <div class="char-small" id="card-back-char"></div>
+        <div class="reading" id="card-reading"></div>
+        <div class="divider"></div>
+        <div class="meaning" id="card-meaning"></div>
+        <div class="examples" id="card-examples"></div>
+      </div>
+
+      <!-- Rating buttons (hidden until flip) -->
+      <div class="rating-row hidden" id="rating-row">
+        <button class="rating-btn" data-rating="1">
+          <span class="label">Lại</span>
+          <span class="interval" id="int-1">1 ngày</span>
+        </button>
+        <button class="rating-btn" data-rating="2">
+          <span class="label">Khó</span>
+          <span class="interval" id="int-2">1 ngày</span>
+        </button>
+        <button class="rating-btn" data-rating="3">
+          <span class="label">Ổn</span>
+          <span class="interval" id="int-3">1 ngày</span>
+        </button>
+        <button class="rating-btn" data-rating="4">
+          <span class="label">Dễ</span>
+          <span class="interval" id="int-4">1 ngày</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Session complete (hidden by default) -->
+  <div class="complete-screen hidden" id="complete-screen">
+    <div style="font-size:48px">🎉</div>
+    <h2>Xong rồi!</h2>
+    <p>Bạn đã hoàn thành tất cả thẻ hôm nay.<br>Quay lại ngày mai để ôn tập tiếp.</p>
+    <button class="btn-primary" id="btn-restart">Xem lại thẻ</button>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="bottom-bar">
+    <span id="bottom-stats"></span>
+  </div>
+
+</div>
+
+<script type="module" src="/src/app.js"></script>
+</body>
+</html>
