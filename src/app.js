@@ -576,39 +576,40 @@ function confirmExport() {
 // ── Review Panel ─────────────────────────────────────────────────────────────
 
 function showReviewPanel() {
-  const learned = characters.filter(c => (cardStates[c.char]?.repetitions ?? 0) > 0);
+  const learnedCount = characters.filter(c => (cardStates[c.char]?.repetitions ?? 0) > 0).length;
   const modal = document.getElementById("review-modal");
   const summary = document.getElementById("review-summary");
-  const grid = document.getElementById("review-grid");
   const search = document.getElementById("review-search");
 
-  summary.textContent = `${learned.length} / ${characters.length} thẻ đã học`;
+  summary.textContent = `${learnedCount} / ${characters.length} thẻ đã học`;
   search.value = "";
 
-  renderReviewGrid(learned, "");
+  renderReviewGrid("");
 
-  search.oninput = () => renderReviewGrid(learned, search.value.trim().toLowerCase());
+  search.oninput = () => renderReviewGrid(search.value.trim().toLowerCase());
 
   modal.showModal();
 }
 
-function renderReviewGrid(learned, filter) {
+function renderReviewGrid(filter) {
   const grid = document.getElementById("review-grid");
   const filtered = filter
-    ? learned.filter(c =>
+    ? characters.filter(c =>
         c.char.includes(filter) ||
         (c.meaning || "").toLowerCase().includes(filter) ||
         (c.reading || "").toLowerCase().includes(filter)
       )
-    : learned;
+    : characters;
 
   if (filtered.length === 0) {
     grid.innerHTML = "<div class='no-edits'>Không tìm thấy.</div>";
     return;
   }
 
-  grid.innerHTML = filtered.map(c => `
-    <div class="review-tile" tabindex="0">
+  grid.innerHTML = filtered.map(c => {
+    const isLearned = (cardStates[c.char]?.repetitions ?? 0) > 0;
+    return `
+    <div class="review-tile${isLearned ? " learned" : ""}" tabindex="0">
       <div class="review-tile-char">${c.char}</div>
       <div class="review-tile-reading">${c.reading || "—"}</div>
       <div class="review-tile-detail hidden">
@@ -616,7 +617,8 @@ function renderReviewGrid(learned, filter) {
         ${c.examples?.length ? `<div class="review-tile-examples">${c.examples.join(" · ")}</div>` : ""}
       </div>
     </div>
-  `).join("");
+  `;
+  }).join("");
 
   grid.querySelectorAll(".review-tile").forEach(tile => {
     tile.addEventListener("click", () => {
@@ -763,11 +765,6 @@ function bindEvents() {
         renderCard();
       })
       .catch((err) => alert(`Import thất bại: ${err.message}`));
-  });
-
-  // Skip writing practice button
-  document.getElementById("btn-skip-writing")?.addEventListener("click", () => {
-    handleWritingComplete();
   });
 
   // Restart session button
