@@ -241,7 +241,12 @@ function updateWritingProgress(count) {
 }
 
 function handleWritingComplete() {
-  // After writing practice, show study card flipped so user can edit
+  // Mark writing as complete so renderCard() won't re-enter writing mode
+  const card = queue[currentIndex];
+  if (card) {
+    cardStates[card.char] = { ...cardStates[card.char], writingCount: 10 };
+    saveState(cardStates);
+  }
   isWritingMode = false;
   renderCard();
   flipCard();  // Auto-flip to study side (meaning/reading visible)
