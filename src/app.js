@@ -19,7 +19,7 @@ import { updateCard, newCardState, BUTTON_TO_QUALITY } from "./sm2.js";
 import { buildQueue, getStats } from "./scheduler.js";
 import {
   loadState,
-  updateCardState,
+  saveState,
   loadSettings,
   saveSettings,
   exportProgress,
@@ -145,7 +145,8 @@ function rateCard(button) {
   const currentState = cardStates[card.char];
   const newState = updateCard(currentState, button);
 
-  cardStates = updateCardState(card.char, newState);
+  cardStates[card.char] = newState;
+  saveState(cardStates);
 
   currentIndex++;
   renderProgress();
