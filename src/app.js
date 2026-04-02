@@ -183,6 +183,11 @@ function bindEvents() {
     }
   });
 
+  // Settings panel toggle
+  document.getElementById("btn-settings").addEventListener("click", () => {
+    document.getElementById("settings-panel").classList.toggle("hidden");
+  });
+
   // Settings: daily limit
   document.getElementById("daily-limit-input").value = settings.dailyNewLimit;
   document.getElementById("daily-limit-input").addEventListener("change", (e) => {
