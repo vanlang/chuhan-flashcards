@@ -276,8 +276,9 @@ function rateCard(button) {
 // ── Events ────────────────────────────────────────────────────────────────────
 
 function bindEvents() {
-  // Card flip on click
+  // Card flip on click (blocked in writing mode)
   document.getElementById("card-area").addEventListener("click", (e) => {
+    if (isWritingMode) return;
     if (!e.target.closest("#rating-row")) flipCard();
   });
 
