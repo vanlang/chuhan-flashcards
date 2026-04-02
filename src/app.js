@@ -36,14 +36,9 @@ let cardStates = {};
 let settings = {};
 let isWritingMode = false;
 
-// ── Canvas state ──────────────────────────────────────────────────────────────
+// ── HanziWriter instance ──────────────────────────────────────────────────────
 
-let isDrawing = false;
-let strokeDistance = 0;
-let lastX = 0;
-let lastY = 0;
-let pauseTimer = null;
-let canvasCtx = null;
+let writer = null;
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 
@@ -172,33 +167,60 @@ function renderWritingCard(card, writingCount) {
   // Update progress
   updateWritingProgress(writingCount);
 
-  // Reset and init canvas
-  initCanvas();
+  // Start guided stroke-order quiz
+  startQuiz(card);
 }
 
-function initCanvas() {
-  const canvas = document.getElementById("writing-canvas");
-  const dpr = window.devicePixelRatio || 1;
-  const size = canvas.offsetWidth || 300;
+function startQuiz(card) {
+  const target = document.getElementById("hz-target");
+  target.innerHTML = "";
 
-  canvas.width = size * dpr;
-  canvas.height = size * dpr;
-
-  canvasCtx = canvas.getContext("2d");
-  canvasCtx.scale(dpr, dpr);
-  canvasCtx.lineWidth = 4;
-  canvasCtx.strokeStyle = "#1a1a1a";
-  canvasCtx.lineCap = "round";
-  canvasCtx.lineJoin = "round";
-  canvasCtx.clearRect(0, 0, size, size);
-
-  // Clear any pending pause timer
-  if (pauseTimer) {
-    clearTimeout(pauseTimer);
-    pauseTimer = null;
+  if (writer) {
+    try { writer.cancelQuiz(); } catch (_) {}
+    writer = null;
   }
-  isDrawing = false;
-  strokeDistance = 0;
+
+  writer = HanziWriter.create("hz-target", card.char, {
+    width: 280,
+    height: 280,
+    padding: 10,
+    showCharacter: true,
+    showOutline: true,
+    strokeColor: "#555555",
+    outlineColor: "#dddddd",
+    highlightColor: "#22c55e",
+    drawingColor: "#111111",
+    drawingWidth: 4,
+    strokeAnimationSpeed: 1,
+    delayBetweenStrokes: 300,
+    charDataLoader(char, onLoad, onError) {
+      fetch(`https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/${char}.json`)
+        .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(onLoad)
+        .catch((err) => {
+          console.warn(`HanziWriter: no data for "${char}", skipping writing mode`);
+          // Fallback: auto-complete writing for this card
+          handleWritingComplete();
+        });
+    },
+  });
+
+  writer.quiz({
+    onMistake() {},        // HanziWriter flashes red automatically
+    onCorrectStroke() {},  // HanziWriter flashes green automatically
+    onComplete() {
+      const newCount = (cardStates[card.char]?.writingCount ?? 0) + 1;
+      cardStates[card.char] = { ...cardStates[card.char], writingCount: newCount };
+      saveState(cardStates);
+      updateWritingProgress(newCount);
+
+      if (newCount >= 10) {
+        handleWritingComplete();
+      } else {
+        setTimeout(() => startQuiz(card), 600);
+      }
+    },
+  });
 }
 
 function updateWritingProgress(count) {
@@ -325,70 +347,6 @@ function bindEvents() {
     renderCard();
   });
 
-  // Writing canvas events (initialized once, guarded by isWritingMode)
-  const canvas = document.getElementById("writing-canvas");
-
-  canvas.addEventListener("pointerdown", (e) => {
-    if (!isWritingMode || e.isPrimary === false) return;
-    e.preventDefault();
-    if (pauseTimer) { clearTimeout(pauseTimer); pauseTimer = null; }
-    isDrawing = true;
-    strokeDistance = 0;
-    const rect = canvas.getBoundingClientRect();
-    lastX = e.clientX - rect.left;
-    lastY = e.clientY - rect.top;
-    canvasCtx.beginPath();
-    canvasCtx.moveTo(lastX, lastY);
-  });
-
-  canvas.addEventListener("pointermove", (e) => {
-    if (!isWritingMode || !isDrawing || e.isPrimary === false) return;
-    e.preventDefault();
-    const rect = canvas.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    const dx = x - lastX;
-    const dy = y - lastY;
-    strokeDistance += Math.sqrt(dx * dx + dy * dy);
-    canvasCtx.beginPath();
-    canvasCtx.moveTo(lastX, lastY);
-    canvasCtx.lineTo(x, y);
-    canvasCtx.stroke();
-    lastX = x;
-    lastY = y;
-  });
-
-  canvas.addEventListener("pointerup", (e) => {
-    if (!isWritingMode || e.isPrimary === false) return;
-    isDrawing = false;
-    if (strokeDistance < 30) return; // ignore accidental taps
-    pauseTimer = setTimeout(() => {
-      pauseTimer = null;
-      const card = queue[currentIndex];
-      const newCount = (cardStates[card.char]?.writingCount ?? 0) + 1;
-      cardStates[card.char] = { ...cardStates[card.char], writingCount: newCount };
-      saveState(cardStates); // persist per-count
-
-      // Flash success
-      canvas.classList.add("flash-success");
-      setTimeout(() => canvas.classList.remove("flash-success"), 300);
-
-      // Clear canvas for next attempt
-      const size = canvas.offsetWidth || 300;
-      canvasCtx.clearRect(0, 0, size, size);
-
-      updateWritingProgress(newCount);
-
-      if (newCount >= 10) {
-        handleWritingComplete();
-      }
-    }, 1000);
-  });
-
-  canvas.addEventListener("pointerleave", (e) => {
-    if (!isWritingMode) return;
-    isDrawing = false;
-  });
 }
 
 // ── Start ─────────────────────────────────────────────────────────────────────
