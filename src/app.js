@@ -300,8 +300,8 @@ function showContextMenu(e, char) {
 
   currentContextChar = char;
   const menu = document.getElementById("context-menu");
-  menu.style.left = e.pageX + "px";
-  menu.style.top = e.pageY + "px";
+  menu.style.left = e.clientX + "px";
+  menu.style.top = e.clientY + "px";
   menu.classList.remove("hidden");
 }
 
