@@ -22,6 +22,10 @@ describe("newCardState", () => {
     expect(s.easeFactor).toBe(2.5);
     expect(s.nextReview).toBe(0);
   });
+
+  it("includes writingCount: 0", () => {
+    expect(newCardState().writingCount).toBe(0);
+  });
 });
 
 describe("updateCard — invalid button", () => {

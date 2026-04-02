@@ -8,7 +8,7 @@
  *   Button "Dễ"   (4) → quality 5 — correct and easy
  *
  * State shape per card:
- *   { interval: number (days), easeFactor: number, repetitions: number, nextReview: number (ms timestamp) }
+ *   { interval: number (days), easeFactor: number, repetitions: number, nextReview: number (ms timestamp), writingCount: number }
  */
 
 export const BUTTON_TO_QUALITY = { 1: 1, 2: 2, 3: 4, 4: 5 };
@@ -25,6 +25,7 @@ export function newCardState() {
     easeFactor: EASE_FACTOR_DEFAULT,
     repetitions: 0,
     nextReview: 0, // due immediately
+    writingCount: 0,
   };
 }
 

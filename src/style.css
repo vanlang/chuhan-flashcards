@@ -292,3 +292,98 @@ header h1 {
 
 /* ── Utility ───────────────────────────────────────────────────────────────── */
 .hidden { display: none !important; }
+
+/* ── Writing Practice ──────────────────────────────────────────────────────── */
+
+.writing-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 0;
+}
+
+.writing-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.writing-label {
+  font-size: 0.75rem;
+  color: var(--text-muted, #888);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+#writing-char {
+  font-size: 4rem;
+  line-height: 1;
+  margin: 4px 0;
+}
+
+#writing-reading {
+  font-size: 1rem;
+  color: var(--text-muted, #888);
+  min-height: 1.2em;
+}
+
+#writing-meaning {
+  font-size: 0.9rem;
+  color: var(--text-secondary, #555);
+  min-height: 1.2em;
+}
+
+#writing-examples {
+  font-size: 0.8rem;
+  color: var(--text-muted, #888);
+  min-height: 1em;
+}
+
+#writing-canvas {
+  border: 2px solid var(--border, #e0e0e0);
+  border-radius: 8px;
+  touch-action: none;
+  cursor: crosshair;
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  transition: border-color 0.2s;
+}
+
+#writing-canvas.flash-success {
+  border-color: #22c55e;
+}
+
+.writing-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.writing-progress-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--progress-bg, #e5e7eb);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.writing-progress-fill {
+  height: 100%;
+  background: var(--accent, #4f46e5);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+  width: 0%;
+}
+
+.writing-count {
+  font-size: 0.85rem;
+  color: var(--text-muted, #888);
+  white-space: nowrap;
+  min-width: 3.5em;
+  text-align: right;
+}

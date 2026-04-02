@@ -38,6 +38,14 @@ describe("buildQueue — all new cards", () => {
     expect(q[1].char).toBe("地");
     expect(q[2].char).toBe("人");
   });
+
+  it("includes cards with partial writingCount in new queue", () => {
+    const cards = ["天"].map(card);
+    const states = { "天": { ...newState(), writingCount: 5 } };
+    const q = buildQueue(cards, states, 10, NOW);
+    expect(q).toHaveLength(1);
+    expect(q[0].char).toBe("天");
+  });
 });
 
 describe("buildQueue — all due reviews", () => {

@@ -34,6 +34,16 @@ let currentIndex = 0;
 let isFlipped = false;
 let cardStates = {};
 let settings = {};
+let isWritingMode = false;
+
+// ── Canvas state ──────────────────────────────────────────────────────────────
+
+let isDrawing = false;
+let strokeDistance = 0;
+let lastX = 0;
+let lastY = 0;
+let pauseTimer = null;
+let canvasCtx = null;
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 
@@ -96,6 +106,19 @@ function renderCard() {
   }
 
   const card = queue[currentIndex];
+  const state = cardStates[card.char];
+  const writingCount = state?.writingCount ?? 0;
+  const isNew = (state?.repetitions ?? 0) === 0;
+
+  if (isNew && writingCount < 10) {
+    isWritingMode = true;
+    renderWritingCard(card, writingCount);
+    return;
+  }
+  isWritingMode = false;
+
+  document.getElementById("writing-area").classList.add("hidden");
+
   isFlipped = false;
 
   document.getElementById("card-number").textContent =
@@ -118,6 +141,81 @@ function renderCard() {
   document.getElementById("card-back").classList.add("hidden");
   document.getElementById("rating-row").classList.add("hidden");
   document.getElementById("flip-hint").classList.remove("hidden");
+}
+
+function renderWritingCard(card, writingCount) {
+  // Hide flip card elements
+  document.getElementById("card-front").classList.add("hidden");
+  document.getElementById("card-back").classList.add("hidden");
+  document.getElementById("rating-row").classList.add("hidden");
+  document.getElementById("flip-hint").classList.add("hidden");
+
+  // Show writing area
+  const writingArea = document.getElementById("writing-area");
+  writingArea.classList.remove("hidden");
+
+  // Populate content
+  document.getElementById("writing-card-number").textContent =
+    `#${characters.findIndex((c) => c.char === card.char) + 1}`;
+  document.getElementById("writing-char").textContent = card.char;
+  document.getElementById("writing-reading").textContent = card.reading || "—";
+  document.getElementById("writing-meaning").textContent = card.meaning || "—";
+
+  const exEl = document.getElementById("writing-examples");
+  if (card.examples && card.examples.length > 0) {
+    exEl.textContent = card.examples.join(" · ");
+    exEl.style.display = "";
+  } else {
+    exEl.style.display = "none";
+  }
+
+  // Update progress
+  updateWritingProgress(writingCount);
+
+  // Reset and init canvas
+  initCanvas();
+}
+
+function initCanvas() {
+  const canvas = document.getElementById("writing-canvas");
+  const dpr = window.devicePixelRatio || 1;
+  const size = canvas.offsetWidth || 300;
+
+  canvas.width = size * dpr;
+  canvas.height = size * dpr;
+
+  canvasCtx = canvas.getContext("2d");
+  canvasCtx.scale(dpr, dpr);
+  canvasCtx.lineWidth = 4;
+  canvasCtx.strokeStyle = "#1a1a1a";
+  canvasCtx.lineCap = "round";
+  canvasCtx.lineJoin = "round";
+  canvasCtx.clearRect(0, 0, size, size);
+
+  // Clear any pending pause timer
+  if (pauseTimer) {
+    clearTimeout(pauseTimer);
+    pauseTimer = null;
+  }
+  isDrawing = false;
+  strokeDistance = 0;
+}
+
+function updateWritingProgress(count) {
+  document.getElementById("writing-count").textContent = `${count} / 10`;
+  document.getElementById("writing-progress-fill").style.width = `${count * 10}%`;
+}
+
+function handleWritingComplete() {
+  const card = queue[currentIndex];
+  const currentState = cardStates[card.char];
+  const newState = updateCard(currentState, 3); // "Good" — enters SM-2
+  cardStates[card.char] = newState;
+  saveState(cardStates);
+  currentIndex++;
+  isWritingMode = false;
+  renderProgress();
+  renderCard();
 }
 
 function flipCard() {
@@ -172,12 +270,13 @@ function bindEvents() {
     switch (e.key) {
       case " ":
         e.preventDefault();
+        if (isWritingMode) return;
         flipCard();
         break;
-      case "1": rateCard(1); break;
-      case "2": rateCard(2); break;
-      case "3": rateCard(3); break;
-      case "4": rateCard(4); break;
+      case "1": if (!isWritingMode) rateCard(1); break;
+      case "2": if (!isWritingMode) rateCard(2); break;
+      case "3": if (!isWritingMode) rateCard(3); break;
+      case "4": if (!isWritingMode) rateCard(4); break;
       case "?":
         document.getElementById("shortcut-help").classList.toggle("hidden");
         break;
@@ -224,6 +323,71 @@ function bindEvents() {
     document.getElementById("complete-screen").classList.add("hidden");
     document.getElementById("study-area").classList.remove("hidden");
     renderCard();
+  });
+
+  // Writing canvas events (initialized once, guarded by isWritingMode)
+  const canvas = document.getElementById("writing-canvas");
+
+  canvas.addEventListener("pointerdown", (e) => {
+    if (!isWritingMode || e.isPrimary === false) return;
+    e.preventDefault();
+    if (pauseTimer) { clearTimeout(pauseTimer); pauseTimer = null; }
+    isDrawing = true;
+    strokeDistance = 0;
+    const rect = canvas.getBoundingClientRect();
+    lastX = e.clientX - rect.left;
+    lastY = e.clientY - rect.top;
+    canvasCtx.beginPath();
+    canvasCtx.moveTo(lastX, lastY);
+  });
+
+  canvas.addEventListener("pointermove", (e) => {
+    if (!isWritingMode || !isDrawing || e.isPrimary === false) return;
+    e.preventDefault();
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const dx = x - lastX;
+    const dy = y - lastY;
+    strokeDistance += Math.sqrt(dx * dx + dy * dy);
+    canvasCtx.beginPath();
+    canvasCtx.moveTo(lastX, lastY);
+    canvasCtx.lineTo(x, y);
+    canvasCtx.stroke();
+    lastX = x;
+    lastY = y;
+  });
+
+  canvas.addEventListener("pointerup", (e) => {
+    if (!isWritingMode || e.isPrimary === false) return;
+    isDrawing = false;
+    if (strokeDistance < 30) return; // ignore accidental taps
+    pauseTimer = setTimeout(() => {
+      pauseTimer = null;
+      const card = queue[currentIndex];
+      const newCount = (cardStates[card.char]?.writingCount ?? 0) + 1;
+      cardStates[card.char] = { ...cardStates[card.char], writingCount: newCount };
+      saveState(cardStates); // persist per-count
+
+      // Flash success
+      canvas.classList.add("flash-success");
+      setTimeout(() => canvas.classList.remove("flash-success"), 300);
+
+      // Clear canvas for next attempt
+      const size = canvas.offsetWidth || 300;
+      canvasCtx.clearRect(0, 0, size, size);
+
+      updateWritingProgress(newCount);
+
+      if (newCount >= 10) {
+        handleWritingComplete();
+      }
+    }, 1000);
+  });
+
+  canvas.addEventListener("pointerleave", (e) => {
+    if (!isWritingMode) return;
+    isDrawing = false;
   });
 }
 
