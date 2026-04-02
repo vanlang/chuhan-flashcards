@@ -603,8 +603,9 @@ function bindEvents() {
     if (card) showContextMenu(e, card.char);
   });
 
-  // Card flip on click (blocked in writing mode)
+  // Card flip on left-click only (blocked in writing mode and right-click)
   document.getElementById("card-area").addEventListener("click", (e) => {
+    if (e.button !== 0) return;  // ignore right-click / middle-click
     closeContextMenu();
     if (isWritingMode) return;
     if (!e.target.closest("#rating-row")) flipCard();
