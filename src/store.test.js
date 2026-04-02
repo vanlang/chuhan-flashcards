@@ -139,14 +139,9 @@ describe("validateEdit", () => {
     expect(error).toBe("Reading too long (max 50 chars)");
   });
 
-  it("rejects empty examples array", () => {
+  it("accepts empty examples array", () => {
     const error = validateEdit({ meaning: "test", reading: "ts", examples: [] });
-    expect(error).toBe("Examples cannot be empty");
-  });
-
-  it("rejects empty example string", () => {
-    const error = validateEdit({ meaning: "test", reading: "ts", examples: ["ex1", "", "ex3"] });
-    expect(error).toBe("Example cannot be empty");
+    expect(error).toBeNull();
   });
 
   it("accepts valid edit", () => {

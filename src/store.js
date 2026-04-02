@@ -200,11 +200,8 @@ export function validateEdit(suggestion) {
     return "Reading too long (max 50 chars)";
   }
 
-  if (!Array.isArray(examples) || examples.length === 0) {
-    return "Examples cannot be empty";
-  }
-  if (examples.some(ex => !ex || ex.trim() === "")) {
-    return "Example cannot be empty";
+  if (!Array.isArray(examples)) {
+    return "Examples must be an array";
   }
 
   return null;
