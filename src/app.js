@@ -573,6 +573,94 @@ function confirmExport() {
   updatePendingBadge();
 }
 
+// ── Review Panel ─────────────────────────────────────────────────────────────
+
+function showReviewPanel() {
+  const learned = characters.filter(c => (cardStates[c.char]?.repetitions ?? 0) > 0);
+  const modal = document.getElementById("review-modal");
+  const summary = document.getElementById("review-summary");
+  const grid = document.getElementById("review-grid");
+  const search = document.getElementById("review-search");
+
+  summary.textContent = `${learned.length} / ${characters.length} thẻ đã học`;
+  search.value = "";
+
+  renderReviewGrid(learned, "");
+
+  search.oninput = () => renderReviewGrid(learned, search.value.trim().toLowerCase());
+
+  modal.showModal();
+}
+
+function renderReviewGrid(learned, filter) {
+  const grid = document.getElementById("review-grid");
+  const filtered = filter
+    ? learned.filter(c =>
+        c.char.includes(filter) ||
+        (c.meaning || "").toLowerCase().includes(filter) ||
+        (c.reading || "").toLowerCase().includes(filter)
+      )
+    : learned;
+
+  if (filtered.length === 0) {
+    grid.innerHTML = "<div class='no-edits'>Không tìm thấy.</div>";
+    return;
+  }
+
+  grid.innerHTML = filtered.map(c => `
+    <div class="review-tile" tabindex="0">
+      <div class="review-tile-char">${c.char}</div>
+      <div class="review-tile-reading">${c.reading || "—"}</div>
+      <div class="review-tile-detail hidden">
+        <div class="review-tile-meaning">${c.meaning || "—"}</div>
+        ${c.examples?.length ? `<div class="review-tile-examples">${c.examples.join(" · ")}</div>` : ""}
+      </div>
+    </div>
+  `).join("");
+
+  grid.querySelectorAll(".review-tile").forEach(tile => {
+    tile.addEventListener("click", () => {
+      const detail = tile.querySelector(".review-tile-detail");
+      const isOpen = !detail.classList.contains("hidden");
+      // collapse all
+      grid.querySelectorAll(".review-tile-detail").forEach(d => d.classList.add("hidden"));
+      grid.querySelectorAll(".review-tile").forEach(t => t.classList.remove("open"));
+      if (!isOpen) {
+        detail.classList.remove("hidden");
+        tile.classList.add("open");
+      }
+    });
+  });
+}
+
+// ── Reset Progress ────────────────────────────────────────────────────────────
+
+function resetAllProgress() {
+  const confirmed = confirm("Xóa toàn bộ tiến độ học? Bạn sẽ bắt đầu lại từ thẻ đầu tiên.");
+  if (!confirmed) return;
+
+  // Clear all card states
+  cardStates = {};
+  for (const card of characters) {
+    cardStates[card.char] = newCardState();
+  }
+  saveState(cardStates);
+
+  // Rebuild queue and restart
+  queue = buildQueue(characters, cardStates, settings.dailyNewLimit);
+  currentIndex = 0;
+  isFlipped = false;
+  isWritingMode = false;
+
+  document.getElementById("settings-panel").classList.add("hidden");
+  document.getElementById("complete-screen").classList.add("hidden");
+  document.getElementById("study-area").classList.remove("hidden");
+
+  renderProgress();
+  renderCard();
+  showToast("✓ Đã đặt lại toàn bộ tiến độ");
+}
+
 // ── Rating ────────────────────────────────────────────────────────────────────
 
 function rateCard(button) {
@@ -652,6 +740,15 @@ function bindEvents() {
     settings.dailyNewLimit = val;
     saveSettings(settings);
   });
+
+  // Review learned characters
+  document.getElementById("btn-review").addEventListener("click", showReviewPanel);
+  document.getElementById("review-modal-close").addEventListener("click", () => {
+    document.getElementById("review-modal").close();
+  });
+
+  // Reset progress
+  document.getElementById("btn-reset").addEventListener("click", resetAllProgress);
 
   // Export / Import
   document.getElementById("btn-export").addEventListener("click", exportProgress);

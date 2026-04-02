@@ -17,6 +17,7 @@
       <button class="btn-ghost" id="btn-pending" style="display:none">
         📋 Pending <span class="badge" id="pending-count"></span>
       </button>
+      <button class="btn-ghost" id="btn-review">Ôn tập</button>
       <button class="btn-ghost" id="btn-settings">Cài đặt</button>
       <button class="btn-ghost" id="btn-help">?</button>
     </div>
@@ -32,6 +33,7 @@
       <button class="btn-ghost" id="btn-export" style="flex:1">Xuất tiến độ</button>
       <button class="btn-ghost" id="btn-import" style="flex:1">Nhập tiến độ</button>
     </div>
+    <button class="btn-reset" id="btn-reset">↺ Bắt đầu lại từ đầu</button>
   </div>
 
   <!-- Shortcut help (hidden by default) -->
@@ -161,6 +163,19 @@
         <button type="button" class="btn-ghost" onclick="document.getElementById('edit-modal').close()">Hủy</button>
       </div>
     </form>
+  </dialog>
+
+  <!-- Review learned characters panel -->
+  <dialog id="review-modal">
+    <div class="modal-header">
+      <h3>📚 Thẻ Đã Học</h3>
+      <button type="button" class="modal-close" id="review-modal-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="review-container">
+      <div class="review-summary" id="review-summary"></div>
+      <input type="text" id="review-search" placeholder="Tìm chữ, nghĩa, phát âm…" autocomplete="off" />
+      <div class="review-grid" id="review-grid"></div>
+    </div>
   </dialog>
 
   <!-- Merge view panel (hidden by default) -->
