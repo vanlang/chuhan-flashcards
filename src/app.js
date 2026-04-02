@@ -188,6 +188,11 @@ function bindEvents() {
     document.getElementById("settings-panel").classList.toggle("hidden");
   });
 
+  // Help panel toggle
+  document.getElementById("btn-help").addEventListener("click", () => {
+    document.getElementById("shortcut-help").classList.toggle("hidden");
+  });
+
   // Settings: daily limit
   document.getElementById("daily-limit-input").value = settings.dailyNewLimit;
   document.getElementById("daily-limit-input").addEventListener("change", (e) => {
