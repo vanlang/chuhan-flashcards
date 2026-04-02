@@ -312,9 +312,8 @@ function closeContextMenu() {
 
 function showEditModal(char) {
   if (!collaboratorName) {
-    // First time: ask for name
-    const name = prompt("Bạn là ai? (tên hoặc email)");
-    if (!name) return;
+    // First time: ask for name, default to "anonymous" if blank
+    const name = prompt("Bạn là ai? (tên hoặc email)") || "anonymous";
     collaboratorName = name;
     sessionStorage.setItem("collaboratorName", name);
   }
@@ -661,6 +660,11 @@ function bindEvents() {
         renderCard();
       })
       .catch((err) => alert(`Import thất bại: ${err.message}`));
+  });
+
+  // Skip writing practice button
+  document.getElementById("btn-skip-writing")?.addEventListener("click", () => {
+    handleWritingComplete();
   });
 
   // Restart session button
