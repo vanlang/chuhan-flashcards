@@ -241,14 +241,8 @@ function updateWritingProgress(count) {
 }
 
 function handleWritingComplete() {
-  const card = queue[currentIndex];
-  const currentState = cardStates[card.char];
-  const newState = updateCard(currentState, 3); // "Good" — enters SM-2
-  cardStates[card.char] = newState;
-  saveState(cardStates);
-  currentIndex++;
+  // After writing practice, show study card so user can flip and edit
   isWritingMode = false;
-  renderProgress();
   renderCard();
 }
 
