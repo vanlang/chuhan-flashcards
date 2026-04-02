@@ -14,6 +14,9 @@
   <header>
     <h1>Chữ Thông Dụng</h1>
     <div class="header-actions">
+      <button class="btn-ghost" id="btn-pending" style="display:none">
+        📋 Pending <span class="badge" id="pending-count"></span>
+      </button>
       <button class="btn-ghost" id="btn-settings">Cài đặt</button>
       <button class="btn-ghost" id="btn-help">?</button>
     </div>
@@ -125,6 +128,80 @@
     <p>Bạn đã hoàn thành tất cả thẻ hôm nay.<br>Quay lại ngày mai để ôn tập tiếp.</p>
     <button class="btn-primary" id="btn-restart">Xem lại thẻ</button>
   </div>
+
+  <!-- Right-click context menu (hidden by default) -->
+  <div id="context-menu" class="context-menu hidden">
+    <button id="context-edit" class="context-item">✏️ Sửa</button>
+    <button id="context-flip" class="context-item">🔄 Lật</button>
+    <button id="context-cancel" class="context-item">✕ Đóng</button>
+  </div>
+
+  <!-- Edit modal (hidden by default) -->
+  <dialog id="edit-modal">
+    <div class="modal-header">
+      <h3>Sửa Thẻ</h3>
+      <button type="button" class="modal-close" aria-label="Close">&times;</button>
+    </div>
+    <form id="edit-form">
+      <label>
+        Nghĩa
+        <input type="text" name="meaning" placeholder="vd: chữ; từ" />
+      </label>
+      <label>
+        Phát âm
+        <input type="text" name="reading" placeholder="vd: tự" />
+      </label>
+      <label>
+        Ví dụ (cách nhau bằng ·)
+        <input type="text" name="examples" placeholder="vd: 字典 · 汉字 · 文字" />
+      </label>
+      <div class="modal-actions">
+        <button type="submit" class="btn-primary">Gợi ý Sửa</button>
+        <button type="button" class="btn-ghost" onclick="document.getElementById('edit-modal').close()">Hủy</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Merge view panel (hidden by default) -->
+  <dialog id="merge-panel">
+    <div class="modal-header">
+      <h3>📋 Các Gợi Ý Sửa</h3>
+      <button type="button" class="modal-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="merge-container">
+      <div class="merge-summary" id="merge-summary">
+        0 gợi ý đang chờ
+      </div>
+      <div class="edit-list" id="edit-list">
+        <!-- Rendered edits go here -->
+      </div>
+      <div class="merge-actions">
+        <button type="button" class="btn-primary" id="export-btn">📥 Xuất</button>
+        <button type="button" class="btn-ghost" id="clear-rejected-btn">🗑️ Xóa từ chối</button>
+        <button type="button" class="btn-ghost" onclick="document.getElementById('merge-panel').close()">Đóng</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Export preview modal -->
+  <dialog id="export-preview">
+    <div class="modal-header">
+      <h3>🔍 Xem trước Xuất</h3>
+      <button type="button" class="modal-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="export-preview-container">
+      <div class="preview-summary" id="preview-summary">
+        <!-- Summary: "X characters updated" goes here -->
+      </div>
+      <div class="preview-changes" id="preview-changes">
+        <!-- List of changes goes here -->
+      </div>
+      <div class="export-preview-actions">
+        <button type="button" class="btn-primary" id="confirm-export-btn">✓ Xuất</button>
+        <button type="button" class="btn-ghost" onclick="document.getElementById('export-preview').close()">Hủy</button>
+      </div>
+    </div>
+  </dialog>
 
   <!-- Bottom bar -->
   <div class="bottom-bar">

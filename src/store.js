@@ -126,3 +126,167 @@ export function importProgress() {
     input.click();
   });
 }
+
+// ── Pending Edits (Dictionary Collaboration) ────────────────────────────────────
+
+const PENDING_EDITS_KEY = "chuhan_pending_edits";
+
+/**
+ * Load all pending edits from localStorage.
+ * @returns {Array} array of pending edit objects
+ */
+export function loadPendingEdits() {
+  try {
+    const raw = localStorage.getItem(PENDING_EDITS_KEY);
+    if (!raw) return [];
+    return JSON.parse(raw);
+  } catch {
+    console.warn("[store] Failed to parse pending edits — resetting to empty.");
+    return [];
+  }
+}
+
+/**
+ * Save a new pending edit to localStorage.
+ * If the same character already has a pending edit by this author, replace it.
+ * @param {string} char — the character being edited
+ * @param {object} suggestion — { meaning, reading, examples[] }
+ * @param {string} author — who suggested this (user name or "anonymous")
+ */
+export function savePendingEdit(char, suggestion, author) {
+  try {
+    const edits = loadPendingEdits();
+    const timestamp = Date.now();
+
+    // Replace existing edit for this char by this author, or append
+    const existingIndex = edits.findIndex(e => e.char === char && e.author === author);
+    const newEdit = { char, suggestion, author, timestamp, status: "pending" };
+
+    if (existingIndex >= 0) {
+      edits[existingIndex] = newEdit;
+    } else {
+      edits.push(newEdit);
+    }
+
+    localStorage.setItem(PENDING_EDITS_KEY, JSON.stringify(edits));
+  } catch (err) {
+    if (err.name === "QuotaExceededError") {
+      console.warn("[store] localStorage full — pending edit not saved.");
+    } else {
+      console.warn("[store] Failed to save pending edit:", err);
+    }
+  }
+}
+
+/**
+ * Validate a suggestion before saving.
+ * @param {object} suggestion — { meaning, reading, examples[] }
+ * @returns {string|null} error message, or null if valid
+ */
+export function validateEdit(suggestion) {
+  const { meaning, reading, examples } = suggestion;
+
+  if (!meaning || meaning.trim() === "") {
+    return "Meaning cannot be empty";
+  }
+  if (meaning.length > 100) {
+    return "Meaning too long (max 100 chars)";
+  }
+
+  if (!reading || reading.trim() === "") {
+    return "Reading cannot be empty";
+  }
+  if (reading.length > 50) {
+    return "Reading too long (max 50 chars)";
+  }
+
+  if (!Array.isArray(examples) || examples.length === 0) {
+    return "Examples cannot be empty";
+  }
+  if (examples.some(ex => !ex || ex.trim() === "")) {
+    return "Example cannot be empty";
+  }
+
+  return null;
+}
+
+/**
+ * Mark a pending edit as approved.
+ * @param {number} index — index in pending edits array
+ */
+export function approveSuggestion(index) {
+  try {
+    const edits = loadPendingEdits();
+    if (index >= 0 && index < edits.length) {
+      edits[index].status = "approved";
+      localStorage.setItem(PENDING_EDITS_KEY, JSON.stringify(edits));
+    }
+  } catch (err) {
+    console.warn("[store] Failed to approve suggestion:", err);
+  }
+}
+
+/**
+ * Remove a pending edit (reject it).
+ * @param {number} index — index in pending edits array
+ */
+export function rejectSuggestion(index) {
+  try {
+    const edits = loadPendingEdits();
+    if (index >= 0 && index < edits.length) {
+      edits.splice(index, 1);
+      localStorage.setItem(PENDING_EDITS_KEY, JSON.stringify(edits));
+    }
+  } catch (err) {
+    console.warn("[store] Failed to reject suggestion:", err);
+  }
+}
+
+/**
+ * Find conflicts in pending edits.
+ * A conflict occurs when two edits exist for the same character with different suggestions.
+ * @param {Array} pendingEdits — from loadPendingEdits()
+ * @returns {Array} array of conflicts: { char, edits[] }
+ */
+export function findConflicts(pendingEdits) {
+  const grouped = {};
+
+  pendingEdits.forEach((edit, idx) => {
+    if (!grouped[edit.char]) {
+      grouped[edit.char] = [];
+    }
+    grouped[edit.char].push({ ...edit, index: idx });
+  });
+
+  const conflicts = [];
+  for (const [char, edits] of Object.entries(grouped)) {
+    if (edits.length > 1) {
+      // Check if suggestions differ
+      const firstSuggestion = edits[0].suggestion;
+      const hasDifference = edits.some(e =>
+        e.suggestion.meaning !== firstSuggestion.meaning ||
+        e.suggestion.reading !== firstSuggestion.reading ||
+        e.suggestion.examples.join("·") !== firstSuggestion.examples.join("·")
+      );
+
+      if (hasDifference) {
+        conflicts.push({ char, edits });
+      }
+    }
+  }
+
+  return conflicts;
+}
+
+/**
+ * Clear all approved edits from pending queue after export.
+ */
+export function clearApprovedEdits() {
+  try {
+    const edits = loadPendingEdits();
+    const remaining = edits.filter(e => e.status !== "approved");
+    localStorage.setItem(PENDING_EDITS_KEY, JSON.stringify(remaining));
+  } catch (err) {
+    console.warn("[store] Failed to clear approved edits:", err);
+  }
+}
