@@ -241,19 +241,26 @@ function updateWritingProgress(count) {
 }
 
 function handleWritingComplete() {
-  // After writing practice, show study card so user can flip and edit
+  // After writing practice, show study card flipped so user can edit
   isWritingMode = false;
   renderCard();
+  flipCard();  // Auto-flip to study side (meaning/reading visible)
 }
 
 function flipCard() {
-  if (isFlipped) return;
-  isFlipped = true;
+  isFlipped = !isFlipped;
 
-  document.getElementById("card-front").classList.add("hidden");
-  document.getElementById("card-back").classList.remove("hidden");
-  document.getElementById("rating-row").classList.remove("hidden");
-  document.getElementById("flip-hint").classList.add("hidden");
+  if (isFlipped) {
+    document.getElementById("card-front").classList.add("hidden");
+    document.getElementById("card-back").classList.remove("hidden");
+    document.getElementById("rating-row").classList.remove("hidden");
+    document.getElementById("flip-hint").classList.add("hidden");
+  } else {
+    document.getElementById("card-front").classList.remove("hidden");
+    document.getElementById("card-back").classList.add("hidden");
+    document.getElementById("rating-row").classList.add("hidden");
+    document.getElementById("flip-hint").classList.remove("hidden");
+  }
 }
 
 function renderSessionComplete() {
