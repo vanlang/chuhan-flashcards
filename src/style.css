@@ -984,6 +984,22 @@ dialog input:focus {
   color: var(--text-muted);
 }
 
+/* ── Dictionary link ───────────────────────────────────────────────────────── */
+.dict-link {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  transition: color .15s, border-color .15s;
+  margin-top: 4px;
+}
+.dict-link:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
 /* ── Reset button ──────────────────────────────────────────────────────────── */
 .btn-reset {
   width: 100%;

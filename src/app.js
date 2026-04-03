@@ -135,6 +135,9 @@ function renderCard() {
     examplesEl.style.display = "none";
   }
 
+  document.getElementById("card-dict-link").href =
+    `https://hvdic.thivien.net/whv/${card.char}`;
+
   // Show front, hide back and rating
   document.getElementById("card-front").classList.remove("hidden");
   document.getElementById("card-back").classList.add("hidden");
@@ -167,6 +170,9 @@ function renderWritingCard(card, writingCount) {
   } else {
     exEl.style.display = "none";
   }
+
+  document.getElementById("writing-dict-link").href =
+    `https://hvdic.thivien.net/whv/${card.char}`;
 
   // Update progress
   updateWritingProgress(writingCount);
