@@ -113,18 +113,10 @@ function renderCard() {
   }
 
   const card = queue[currentIndex];
-  const state = cardStates[card.char];
-  const writingCount = state?.writingCount ?? 0;
-  const isNew = (state?.repetitions ?? 0) === 0;
-
-  if (isNew && writingCount < 10) {
-    isWritingMode = true;
-    renderWritingCard(card, writingCount);
-    return;
-  }
   isWritingMode = false;
 
   document.getElementById("writing-area").classList.add("hidden");
+  document.getElementById("writing-prompt").classList.add("hidden");
 
   isFlipped = false;
 
@@ -241,29 +233,45 @@ function updateWritingProgress(count) {
 }
 
 function handleWritingComplete() {
-  // Mark writing as complete so renderCard() won't re-enter writing mode
   const card = queue[currentIndex];
   if (card) {
-    cardStates[card.char] = { ...cardStates[card.char], writingCount: 10 };
+    // Mark writing done and auto-rate "Good" (3) to advance SM-2 for new cards
+    const stateWithWriting = { ...cardStates[card.char], writingCount: 10 };
+    cardStates[card.char] = updateCard(stateWithWriting, 3);
     saveState(cardStates);
   }
   isWritingMode = false;
+  currentIndex++;
+  renderProgress();
   renderCard();
-  flipCard();  // Auto-flip to study side (meaning/reading visible)
 }
 
 function flipCard() {
   isFlipped = !isFlipped;
 
   if (isFlipped) {
+    const card = queue[currentIndex];
+    const state = cardStates[card.char];
+    const isNewCard = (state?.repetitions ?? 0) === 0 && (state?.writingCount ?? 0) < 10;
+
     document.getElementById("card-front").classList.add("hidden");
     document.getElementById("card-back").classList.remove("hidden");
-    document.getElementById("rating-row").classList.remove("hidden");
     document.getElementById("flip-hint").classList.add("hidden");
+
+    if (isNewCard) {
+      // New card: show meaning/reading, then let user click "Luyện viết" to start writing
+      document.getElementById("writing-prompt").classList.remove("hidden");
+      document.getElementById("rating-row").classList.add("hidden");
+    } else {
+      // Review card: show rating buttons
+      document.getElementById("writing-prompt").classList.add("hidden");
+      document.getElementById("rating-row").classList.remove("hidden");
+    }
   } else {
     document.getElementById("card-front").classList.remove("hidden");
     document.getElementById("card-back").classList.add("hidden");
     document.getElementById("rating-row").classList.add("hidden");
+    document.getElementById("writing-prompt").classList.add("hidden");
     document.getElementById("flip-hint").classList.remove("hidden");
   }
 }
@@ -675,8 +683,8 @@ function rateCard(button) {
   cardStates[card.char] = newState;
   saveState(cardStates);
 
-  currentIndex++;
   renderProgress();
+  currentIndex++;
   renderCard();
 }
 
@@ -774,6 +782,16 @@ function bindEvents() {
     document.getElementById("complete-screen").classList.add("hidden");
     document.getElementById("study-area").classList.remove("hidden");
     renderCard();
+  });
+
+  // Writing prompt button
+  document.getElementById("btn-start-writing").addEventListener("click", () => {
+    const card = queue[currentIndex];
+    const state = cardStates[card.char];
+    document.getElementById("writing-prompt").classList.add("hidden");
+    document.getElementById("card-back").classList.add("hidden");
+    isWritingMode = true;
+    renderWritingCard(card, state?.writingCount ?? 0);
   });
 
   // Context menu buttons
