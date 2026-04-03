@@ -184,6 +184,46 @@ header h1 {
 .rating-btn .label { font-size: 12px; font-weight: 600; color: var(--text); }
 .rating-btn .interval { font-size: 10px; color: var(--text-muted); }
 
+/* ── Writing prompt ─────────────────────────────────────────────────────────── */
+.writing-prompt {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-start-writing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  padding: 18px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: opacity .15s, transform .1s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+  min-height: 60px;
+}
+
+.btn-start-writing:hover  { opacity: 0.88; }
+.btn-start-writing:active { transform: scale(0.97); opacity: 0.95; }
+
+@media (max-width: 480px) {
+  .btn-start-writing {
+    font-size: 16px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    min-height: 54px;
+  }
+}
+
 /* ── Settings panel ────────────────────────────────────────────────────────── */
 .settings-panel {
   background: var(--surface);
