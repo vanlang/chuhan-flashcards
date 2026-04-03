@@ -195,21 +195,21 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
   width: 100%;
-  max-width: 400px;
-  padding: 18px 32px;
-  font-size: 18px;
+  max-width: 260px;
+  padding: 12px 24px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #e02020;
   background: var(--accent);
   border: none;
-  border-radius: 14px;
+  border-radius: 10px;
   cursor: pointer;
   transition: opacity .15s, transform .1s;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
-  min-height: 60px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+  min-height: 46px;
 }
 
 .btn-start-writing:hover  { opacity: 0.88; }
@@ -217,10 +217,10 @@ header h1 {
 
 @media (max-width: 480px) {
   .btn-start-writing {
-    font-size: 16px;
-    padding: 16px 24px;
-    border-radius: 12px;
-    min-height: 54px;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 9px;
+    min-height: 42px;
   }
 }
 
