@@ -190,12 +190,15 @@ function startQuiz(card) {
     writer = null;
   }
 
+  const count = cardStates[card.char]?.writingCount ?? 0;
+  const showSample = count < 5; // reps 1-5: show sample, 6-10: hide
+
   writer = HanziWriter.create("hz-target", card.char, {
     width: 280,
     height: 280,
     padding: 10,
-    showCharacter: true,
-    showOutline: true,
+    showCharacter: showSample,
+    showOutline: showSample,
     strokeColor: "#555555",
     outlineColor: "#dddddd",
     highlightColor: "#22c55e",
