@@ -265,7 +265,7 @@ function flipCard() {
     document.getElementById("flip-hint").classList.add("hidden");
 
     if (isNewCard) {
-      // New card: show meaning/reading, then let user click "Luyện viết" to start writing
+      // New card: show meaning/reading + "Luyện viết" button
       document.getElementById("writing-prompt").classList.remove("hidden");
       document.getElementById("rating-row").classList.add("hidden");
     } else {
@@ -712,7 +712,7 @@ function bindEvents() {
     if (e.button !== 0) return;  // ignore right-click / middle-click
     closeContextMenu();
     if (isWritingMode) return;
-    if (!e.target.closest("#rating-row")) flipCard();
+    if (!e.target.closest("#rating-row") && !e.target.closest("#card-back") && !e.target.closest("#writing-prompt")) flipCard();
   });
 
   // Rating buttons
