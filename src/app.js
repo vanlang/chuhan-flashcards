@@ -712,7 +712,7 @@ function bindEvents() {
     if (e.button !== 0) return;  // ignore right-click / middle-click
     closeContextMenu();
     if (isWritingMode) return;
-    if (!e.target.closest("#rating-row") && !e.target.closest("#card-back") && !e.target.closest("#writing-prompt")) flipCard();
+    if (!e.target.closest("#rating-row") && !e.target.closest("#card-back") && !e.target.closest("#writing-prompt") && !e.target.closest("#writing-area")) flipCard();
   });
 
   // Rating buttons
