@@ -790,14 +790,15 @@ function bindEvents() {
     renderCard();
   });
 
-  // Writing prompt button
+  // Writing prompt button — advance to next card (rate Good)
   document.getElementById("btn-start-writing").addEventListener("click", () => {
     const card = queue[currentIndex];
-    const state = cardStates[card.char];
-    document.getElementById("writing-prompt").classList.add("hidden");
-    document.getElementById("card-back").classList.add("hidden");
-    isWritingMode = true;
-    renderWritingCard(card, state?.writingCount ?? 0);
+    const stateWithWriting = { ...cardStates[card.char], writingCount: 10 };
+    cardStates[card.char] = updateCard(stateWithWriting, 3);
+    saveState(cardStates);
+    currentIndex++;
+    renderProgress();
+    renderCard();
   });
 
   // Context menu buttons
