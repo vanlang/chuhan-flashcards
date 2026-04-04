@@ -790,15 +790,14 @@ function bindEvents() {
     renderCard();
   });
 
-  // Writing prompt button — advance to next card (rate Good)
+  // Writing prompt button — launch HanziWriter practice
   document.getElementById("btn-start-writing").addEventListener("click", () => {
     const card = queue[currentIndex];
-    const stateWithWriting = { ...cardStates[card.char], writingCount: 10 };
-    cardStates[card.char] = updateCard(stateWithWriting, 3);
-    saveState(cardStates);
-    currentIndex++;
-    renderProgress();
-    renderCard();
+    const state = cardStates[card.char];
+    document.getElementById("writing-prompt").classList.add("hidden");
+    document.getElementById("card-back").classList.add("hidden");
+    isWritingMode = true;
+    renderWritingCard(card, state?.writingCount ?? 0);
   });
 
   // Context menu buttons
